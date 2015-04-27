@@ -13,7 +13,7 @@ var createHash = require('multiblob/util').createHash
 var parse      = require('mynosql-query')
 
 var config  = require('ssb-config')
-console.info(config)
+console.log(config)
 
 var keys = ssbKeys.loadOrCreateSync(path.join(config.path, 'secret'))
 
