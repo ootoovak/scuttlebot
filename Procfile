@@ -1,1 +1,1 @@
-web: node bin.js server --host $PUBDOMAIN --path "."
+web: node bin.js server --host $PUBDOMAIN --path "/app"
